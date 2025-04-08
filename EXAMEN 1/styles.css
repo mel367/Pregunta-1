@@ -1,0 +1,89 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilo para section */
+section {
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Estilos para los articles */
+article {
+    padding: 15px;
+    margin: 10px;
+}
+
+/* Fondo del primer article */
+article:nth-of-type(1) {
+    background-color: #f0f0f0;
+}
+
+
+.fondo-imagen {
+    background-image: url('logo.png'); 
+    background-size: cover;  
+    background-position: center center; 
+    height: 300px; 
+    color: white;  
+    padding: 20px;  
+    margin-bottom: 20px; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    text-align: center;
+}
+
+/* Estilo de los enlaces */
+.enlaces {
+    padding: 20px;
+    margin: 10px;
+    background-color: #f1f1f1;
+}
+
+.enlaces a {
+    color: #4CAF50;
+    text-decoration: none;
+    margin: 5px;
+}
+
+/* Estilo para footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilo para el catálogo de productos */
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.productos article {
+    width: 30%;
+    background-color: #f8f8f8;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.productos h3 {
+    margin-top: 0;
+}
+
+.productos p {
+    margin: 10px 0;
+}
